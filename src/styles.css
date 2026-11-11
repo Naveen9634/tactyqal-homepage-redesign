@@ -2812,3 +2812,38 @@ body {
 .contact-info-card .contact-icon {
   color: #A78BFA !important;
 }
+
+/* CONTACT CARD 1 - SHORTER HEIGHT */
+@media (min-width: 761px) {
+  .contact-layout {
+    align-items: start !important;
+  }
+
+  .contact-info-card {
+    height: 550px !important;
+    min-height: 550px !important;
+    align-self: start !important;
+  }
+}
+
+@media (min-width: 761px) {
+  .contact-info-card {
+    margin-top: 100px !important;
+  }
+}
+
+/* SUCCESS STORIES - SAME PURPLE HOVER AS WHY SECTION */
+
+.success-section .project-card {
+  transition: all 0.3s ease !important;
+}
+
+.success-section .project-card:hover {
+  transform: translateY(-5px) !important;
+  border-color: #A78BFA !important;
+  box-shadow: 0 0 30px 5px rgba(167, 139, 250, 0.8) !important;
+}
+
+.success-section .project-card:hover h3 {
+  color: #C4B5FD !important;
+}
